@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandwich Maker</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🥪 Sandwich Maker</h1>
+        <p>Crée ton sandwich parfait</p>
+    </header>
+
+    <main class="container">
+
+        <section class="options-grid">
+
+            <!-- Bread -->
+            <fieldset class="card">
+                <legend class="title bread">🧺 Bread</legend>
+                <label><input type="checkbox"> Wheat</label>
+                <label><input type="checkbox"> Ciabatta</label>
+                <label><input type="checkbox"> Brioche</label>
+                <label><input type="checkbox"> French</label>
+                <label><input type="checkbox"> Lettuce wrap</label>
+            </fieldset>
+
+            <!-- Meats -->
+            <fieldset class="card">
+                <legend class="title meats">🍖 Meats</legend>
+                <label><input type="checkbox"> Ham</label>
+                <label><input type="checkbox"> Turkey</label>
+                <label><input type="checkbox"> Roast beef</label>
+                <label><input type="checkbox"> Salami</label>
+                <label><input type="checkbox"> Chicken salad</label>
+            </fieldset>
+
+            <!-- Cheese -->
+            <fieldset class="card">
+                <legend class="title cheese">🧀 Cheese</legend>
+                <label><input type="checkbox"> Swiss</label>
+                <label><input type="checkbox"> American</label>
+                <label><input type="checkbox"> Gorgonzola</label>
+                <label><input type="checkbox"> Pepper Jack</label>
+                <label><input type="checkbox"> Provolone</label>
+            </fieldset>
+
+            <!-- Veggies -->
+            <fieldset class="card">
+                <legend class="title veggies">🥬 Veggies</legend>
+                <label><input type="checkbox"> Lettuce</label>
+                <label><input type="checkbox"> Tomato</label>
+                <label><input type="checkbox"> Onion</label>
+                <label><input type="checkbox"> Cherry peppers</label>
+                <label><input type="checkbox"> Pickles</label>
+            </fieldset>
+
+            <!-- Condiments -->
+            <fieldset class="card">
+                <legend class="title condiments">🧂 Condiments</legend>
+                <label><input type="checkbox"> Ketchup</label>
+                <label><input type="checkbox"> Mayo</label>
+                <label><input type="checkbox"> Mustard</label>
+                <label><input type="checkbox"> Ranch</label>
+                <label><input type="checkbox"> Sriracha</label>
+            </fieldset>
+
+        </section>
+
+        <div class="buttons">
+            <button class="btn primary">Make Sandwich</button>
+            <button class="btn secondary">Clear Order</button>
+        </div>
+
+        <section class="preview">
+            <img src="images/sandwich.png" alt="Sandwich Preview">
+        </section>
+
+    </main>
+
+</body>
+</html>
